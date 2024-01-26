@@ -1,6 +1,5 @@
 import os
 
-
 class Playwright:
     PAGE_VIEWPORT_SIZE = {'width': 1280, 'height': 720}
     ENV = os.getenv('ENV') if os.getenv('ENV') is not None else 'stage'

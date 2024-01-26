@@ -4,7 +4,7 @@ import pytest
 import element_action
 
 
-class Test_Request_Call_Form:
+class TestRequestCallForm:
 
     @pytest.mark.case_id(1)
     def test_validation_tooltip(self, page):
